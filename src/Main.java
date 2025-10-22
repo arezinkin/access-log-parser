@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Введите текст и нажмите <Enter>: ");
+        System.out.println(" !!! Пожалуйста, введите ПЕРВОЕ0, число и нажмите <Enter>: ");
+        // TODO: явно нужно сделать проверку на вводимый тип данных, если ввести не число, то программа падает по ошибке. Может exception поставить? но нас пока не учили как :(
+        double input_number1 = new Scanner(System.in).nextDouble();
 
-        // Считываем строку из командной строки
-        String text = new Scanner(System.in).nextLine();
-
-        System.out.println("Длина текста: " + text.length());
+        System.out.println("Дробная часть числа: " + NumberFunc.fraction(input_number1));
 
 
     }

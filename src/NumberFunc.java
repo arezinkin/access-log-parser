@@ -11,7 +11,10 @@ public class NumberFunc {
         int int_x_1000 = (int) x1000;
         System.out.println(int_x_1000);
 
-        //if (double) x1000-int_x_1000 > 0.5 {}
+        //if (input_number2!=0) {
+        if ((double) x1000-int_x_1000 > 0.5) {int_x_1000+}
+
+        System.out.println(int_x_1000);
 
         double x1000_3 = (double) int_x_1000 / 1000;
         System.out.println(x1000_3);
